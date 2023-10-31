@@ -13,7 +13,7 @@ export async function handler(
     headers.set("Access-Control-Allow-Origin", origin);
     headers.set(
       "Access-Control-Allow-Methods",
-      "DELETE",
+      "POST",
     );
     return resp;
   }
