@@ -12,8 +12,8 @@ export async function handler(
     const headers = resp.headers;
     headers.set("Access-Control-Allow-Origin", origin);
     headers.set(
-      "Access-Control-Allow-Methods",
-      "POST",
+      "Access-Control-Allow-Methods","POST, OPTIONS, GET, PUT, DELETE"
+   
     );
     return resp;
   }
